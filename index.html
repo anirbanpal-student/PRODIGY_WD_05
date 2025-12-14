@@ -1,0 +1,26 @@
+<html>
+<head>
+    <title>Weather Web-app</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+</head>
+<body>
+    <div class="weather-container">
+        <h1>Weather App</h1>
+
+        <div class="input-section">
+            <input type="text" id="city-input" placeholder="Enter city name...">
+            <i class="fa-solid fa-magnifying-glass" id="search-button"></i>
+            </input>
+        </div>
+        <div id="weather-details" class="details-section">
+            <div id="def"></div>
+            <p id="change">Enter a city name and click 'Get Weather' to see the current conditions.</p>
+        </div>
+
+        <p class="error-message" id="error-message"></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
